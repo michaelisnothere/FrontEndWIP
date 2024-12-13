@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212; /* Dark theme background */
+    color: #ffffff; /* Light text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.movie-review-search {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #1e1e1e; /* Slightly lighter background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.search-bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Spacing between input and button */
+    margin-bottom: 20px;
+}
+
+.search-bar-container.horizontal {
+    flex-direction: row;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.movie-reviews {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.load-more-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.load-more-button:hover {
+    background-color: #1e7e34;
+}
